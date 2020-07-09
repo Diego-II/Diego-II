@@ -11,7 +11,6 @@ jobs:
     - name: Compilation
       uses: dante-ev/latex-action@v0.2.0
       with:
-        args: -lualatex -latexoption=-file-line-error -latexoption=-interaction=nonstopmode
         root_file: 'main.tex'
         extra_system_packages: texlive-fonts-extra 
         
