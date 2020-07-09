@@ -10,5 +10,4 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: main.tex
-          extra_system_packages: texlive-fonts-extra
           latexmk_use_lualatex: true
