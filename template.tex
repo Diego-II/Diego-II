@@ -1,0 +1,183 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+\usepackage[spanish,es-nosectiondot,es-lcroman]{babel} % Idioma
+\usepackage[T1]{fontenc} % Caracteres acentuados
+\usepackage{verbatim}
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{} % Profile picture foto.png
+
+\cvname{Diego \\ Irarr\'azaval \\ Infante} % Your name
+\cvjobtitle{Estudiante ingenier\'ia \\ el\'ectrica} % Job title/career
+
+\cvdate{06 Septiembre 1996} % Date of birth
+\cvaddress{Santiago, Chile} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+56 9 9562 8260} % Phone number
+\cvmail{d.irarrazaval.i@gmail.com}
+%\cvmail{diego.irarrazaval@ug.uchile.cl}
+\cvsite{\href{https://www.linkedin.com/in/diego-irarrazaval-16b18318a/}{Linkedin}} % Personal website
+ % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{Estudiante de Ingenier\'ia el\'ectrica cursando el $5^{\circ}$ a\~no. Motivado, autodidacta, con capacidad de trabajo en equipo dispuesto a aceptar nuevos desaf\'ios.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{}
+\skillstext{
+Lenguajes de programaci\'on: \texttt{Python}, \texttt{Matlab}, \texttt{Simulink}.
+
+\par
+Manejo de libr\'ias en \texttt{Python} para \textit{Machine Learning}, \textit{Data Science} y otros:
+\begin{itemize}
+    \item \texttt{Pandas}
+    \item \texttt{Scikit-learn}
+    \item \texttt{Tensorflow}
+    \item \texttt{Keras}
+    \item \texttt{NLTK} (para \textit{Natural Language Processing} NLP) 
+    \item \texttt{Gurobipy} (para modelamiento y optimizaci\'on)
+\end{itemize}
+
+
+\par
+Sistemas Digitales:  Arduino y uso de FPGA's.
+
+\par Otros: Uso de \LaTeX. Nivel intermedio de Excel y Office.
+
+\bigskip
+\par \textbf{Manejo de idiomas:} Ingl\'es en nivel medio-alto (hablado y escrito).
+}
+
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Educaci\'on}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2015 - \textit{hoy}}{$5^\circ$ a\~no Ingenier\'ia civil El\'ectrica}{Santiago}{Universidad de Chile, Facultad de Ciencias F\'isicas y Matem\'aticas (FCFM).}
+	\twentyitem{2001-2014}{Colegio Monte Tabor y Nazaret}{Santiago}{}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+\begin{comment}
+\section{Publications}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{1865}{Chapter One, Down the Rabbit Hole.}
+	\twentyitemshort{1865}{Chapter Two, The Pool of Tears.}
+	\twentyitemshort{1865}{Chapter Three,  The Caucus Race and a Long Tale.}
+	\twentyitemshort{1865}{Chapter Four,  The Rabbit Sends a Little Bill.}
+	\twentyitemshort{1865}{Chapter Five,  Advice from a Caterpillar.}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{1987}{All-Time Best Fantasy Novel.}
+	\twentyitemshort{1998}{All-Time Best Fantasy Novel before 1990.}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+\end{comment}
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experiencia}
+
+\begin{twenty} % Environment for a list with descriptions
+    \twentyitem{2019}{{Facultad de Ciencias F\'isicas y Matem\'aticas (FCFM)}}{Ayundante laboratorio}{Me desempe\~no como ayudante de laboratorio y corrector de pruebas del curso Sistemas Digitales. Dentro de las tareas realizadas deb\'i dictar la metodolog\'ia, coordinar la disponibilidad de materiales y equipos necesarios, supervisar la correcta realizaci\'on de las actividades y evaluar informes, presentaciones y pruebas.}
+    \twentyitem{2019}{{Facultad de Ciencias F\'isicas y Matem\'aticas (FCFM)}}{Ayudante corrector}{Ayudante corrector de controles y pruebas en el ramo Circuitos Anal\'ogicos.}
+	\twentyitem{2018}{Space and Planetary Exploratory Lab (\texttt{SPEL})}{Proyecto de investigaci\'on}{El segundo semestre particip\'e como alumno en el laboratorio \texttt{SPEL} de la Facultad de Ciencias F\'isicas y Matem\'aticas de la Universidad de Chile realizando la implementaci\'on de sistema de comunicaci\'on para globo de prueba para dise\~no de sat\'elites \textit{Suchai II} y \textit{III}}
+	\twentyitem{2018}{Rewco Inmobiliaria.}{Asistente de ventas}{Durante el mes de febrero de ese a\~no me desempe\~n\'e como promotor y vendedor de terrenos en el lago Ranco.}
+	\twentyitem{2013, 2014}{Nike.}{Vendedor y reponedor}{Vendedor y reponedor en tiendas \textit{Nike} durante temporada de navidad.}
+\end{twenty}
+
+\section{Proyectos Realizados:}
+
+\begin{twenty}
+    \twentyitem{Actualidad}{Proyecto Ciencias de Datos}{}{Desarrollo de modelo exploratorio de m\'odulo de Inteligencia Artificial para \texttt{Streetrip}. El objetivo es lograr predecir que cliente comprar\'a, que producto comprar\'a y cu\'anto comprar\'a en el mediano-corto plazo, generando  as\'i un sistema de recomendaci\'on inteligente.}
+\end{twenty}
+
+
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\section{Otros}
+
+\begin{twenty}
+    \twentyitem{2015- \textit{hoy}}{Fundaci\'on Arde}{Voluntario}{Durante los a\~nos  de formaci\'on universitaria he participado en la fundaci\'on Arde realizando clases de matem\'aticas y f\'isica a ni\~nos de $II^{\circ}$ Medio en un colegio de escasos resursos.}
+    \twentyitem{2018}{Fundaci\'on Arde}{Voluntario}{Durante el a\~no 2018 particip\'e en el \'area de inserci\'on social de la fundaci\'on. En ese per\'iodo viv\'i en la poblaci\'on `El refugio'.}
+    
+    \twentyitem{2015-2016}{Misiones Familiares}{Organizador}{Durante los an\~os mencionados me desempe\~n\'e como organizador de Misiones Familiares.}
+\end{twenty}
+
+%----------------INTERESES--------------------------
+\section{Intereses}
+
+\par \textbf{\textit{Hobbies:}} 
+Interesado en la m\'usica. Tocar guitarra y otros instrumentos es fundamental para la distenci\'on.
+\par
+La pr\'actica de deporte en particular el f\'utbol y la escalada son parte importante de la semana. Hincha (y socio) de la Universidad Cat\'olica.
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
