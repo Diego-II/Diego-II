@@ -1,5 +1,5 @@
-# Curriculum Vitae 
-**[Version PDF](https://github.com/Diego-II/CV_Diego_Irarrazaval/blob/master/cv_pdf/main.pdf)
+# Curriculum Vitae  
+## [Version PDF](https://github.com/Diego-II/CV_Diego_Irarrazaval/blob/master/output/main.pdf)
 
 ## Educación:
 ### Universidad de Chile, Facultad de Ciencias Físicas y Matemáticas:
