@@ -154,17 +154,6 @@
 		\end{tabular}
 
 		%------------------------------------------------
-		\secline
-		    \begin{flushleft}
-		        \'Ultima actualizaci\'on:
-		    \end{flusdhleft}
-		    \par
-		    \begin{flushright}
-		        \today
-		    \end{flushright}
-		    \par
-        \secline
-		
 		
 		\ifthenelse{\equal{\aboutme}{}}{}{
 			\profilesection{Resumen}
