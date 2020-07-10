@@ -13,13 +13,13 @@ jobs:
       # src: https://github.community/t/possible-to-commit-files-after-workflow-runs/17824/2
       - name: move to dir # Move the generated files into output folder
         run: |
-          mkdir -p cv_pdf
-          yes| cp -rf main.pdf ./cv_pdf/ 
+          mkdir -p output
+          yes| cp -rf main.pdf ./output/
       - name: Commit files # commit the output folder
         run: |
           git config --local user.email "diego.irarrazaval@ug.uchile.cl"
           git config --local user.name "Diego-II"
-          git add ./cv_pdf
+          git add ./output
           git commit -m "Add changes"
       - name: Push changes # push the output folder to your repo
         uses: ad-m/github-push-action@master
