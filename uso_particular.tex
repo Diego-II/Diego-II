@@ -1,27 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Twenty Seconds Resume/CV
-% LaTeX Template
-% Version 1.1 (8/1/17)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
-% Vel (vel@LaTeXTemplates.com)
-%
-% License:
-% The MIT License (see included LICENSE file)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
-
 \documentclass[letterpaper]{twentysecondcv} % a4paper for A4
 
 \usepackage[spanish,es-nosectiondot,es-lcroman]{babel} % Idioma
@@ -53,8 +29,7 @@
 %	 ABOUT ME
 %----------------------------------------------------------------------------------------
 
-\aboutme{Estudiante de Ingenier\'ia el\'ectrica, especializado en Inteligencia Computacional. Alto inter\'es en investigaci\'on como aplicaci\'on en temas de \textit{Machine Learning} y \textit{Data Science}. Tambi\'en tengo inter\'es en aprender y aplicar metodolog\'ias \'agiles. } 
-% -------------Cargo al que se postula
+\aboutme{Estudiante de Ingenier\'ia el\'ectrica, especializado en Inteligencia Computacional. Alto inter\'es tanto en investigaci\'on como aplicaci\'on en temas de {\color{mainblue}\textit{Machine Learning}} y {\color{mainblue}\textit{Data Science}}. Tambi\'en tengo inter\'es en aprender y aplicar metodolog\'ias \'agiles. } 
 
 \cargo{Pr\'actica profesional II: Applied Intelligence, Accenture.}
 
@@ -68,17 +43,21 @@
 \begin{itemize}[leftmargin=*]
     \setlength\itemsep{-0.3em}
     
-    \item Lenguajes de programaci\'on: \texttt{Python}, \texttt{Matlab}, \texttt{Simulink}.
+    \item {\color{mainblue} Python:} Manejo de libr\'ias en para \textit{Machine Learning}, \textit{Data Science} y otros:
+    {\color{mainblue}
+    \begin{itemize}
+        \setlength\itemsep{-0.5em}
+        \item \texttt{Pandas}, \texttt{Numpy}, \texttt{Scikit-learn}
+        \item \texttt{Tensorflow}, \texttt{PyTorch}, \texttt{Keras}
+        \item \texttt{NLTK}, \texttt{OpenCV}
+        \item \texttt{Gurobipy}
+    \end{itemize}}
     
-    {\color{mainblue} \item Manejo de libr\'ias en \texttt{Python} para \textit{Machine Learning}, \textit{Data Science} y otros:
-    \texttt{Pandas}, \texttt{Numpy}, \texttt{Scikit-learn}, \texttt{Tensorflow}, \texttt{PyTorch}, \texttt{Keras}, \texttt{NLTK}, \texttt{Gurobipy}, \texttt{OpenCV}}
+    \item Desarrollo WEB: {\color{mainblue}  \texttt{HTML}, \texttt{PHP}, \texttt{JavaScript}, \texttt{CSS}.}
     
-    \item Desarrollo WEB: \texttt{HTML}, \texttt{PHP}, \texttt{JavaScript}, \texttt{CSS}.
+    \item Conocimientos en bases de datos: {\color{mainblue} \texttt{MariaDB}, \texttt{PostgreSQL}. }
     
-    \item Conocimientos en bases de datos: \texttt{MariaDB}, \texttt{PostgreSQL}. 
-    \item Sistemas Digitales:  Arduino y uso de FPGA's.
-    
-    \item Otros: Uso de \LaTeX. Nivel intermedio de Excel y Office.
+    \item Nivel intermedio de {\color{mainblue}Excel} y Office. B\'asico de {\color{mainblue} \texttt{Tableau}}.
     
     \item \textbf{Manejo de idiomas:} Ingl\'es en nivel medio-alto (hablado y escrito). Certificacion \texttt{TOEFL ITP}.
     \item Certificaci\'on de \texttt{Google} en uso de \texttt{Git} (\href{https://coursera.org/share/4dbc294b55691027bd0d00adb42e9587}{\color{mainblue} link} al certificado).
@@ -148,15 +127,15 @@
 \section{Ayudant\'ias:}
 
 \begin{twenty}
-    \twentyitem{2019}{{Facultad de Ciencias F\'isicas y Matem\'aticas (FCFM)}}{Ayundante laboratorio}{Me desempe\~n\'e como ayudante de laboratorio y corrector de pruebas del curso Sistemas Digitales.}
-    \twentyitem{2019}{{Facultad de Ciencias F\'isicas y Matem\'aticas (FCFM)}}{Ayudante corrector}{Ayudante corrector de controles y pruebas en el ramo Circuitos Anal\'ogicos.}
+    \twentyitem{2019}{{Facultad de Ciencias F\'isicas y Matem\'aticas }}{Ayundante laboratorio}{Me desempe\~n\'e como ayudante de laboratorio y corrector de pruebas del curso Sistemas Digitales.}
+    \twentyitem{2019}{{Facultad de Ciencias F\'isicas y Matem\'aticas }}{Ayudante corrector}{Ayudante corrector de controles y pruebas en el ramo Circuitos Anal\'ogicos.}
 \end{twenty}
 
 
 \section{Proyectos Realizados:}
 
 \begin{twenty}
-    \twentyitem{2019}{Proyecto Ciencias de Datos}{}{Desarrollo de modelo exploratorio de m\'odulo de Inteligencia Artificial para \texttt{Streetrip}. El objetivo es lograr predecir que cliente comprar\'a, que producto comprar\'a y cu\'anto comprar\'a en el mediano-corto plazo, generando  as\'i un sistema de recomendaci\'on inteligente.}
+    \twentyitem{2019}{Proyecto Ciencias de Datos}{}{Desarrollo de modelo exploratorio de m\'odulo de Inteligencia Artificial para \texttt{Streetrip}. }
 \end{twenty}
 
 
@@ -166,7 +145,7 @@
 \section{Otros}
 
 \begin{twenty}
-    \twentyitem{2015- \textit{hoy}}{Fundaci\'on Arde}{Voluntario}{Durante los a\~nos  de formaci\'on universitaria he participado en la fundaci\'on Arde realizando clases de matem\'aticas y f\'isica a ni\~nos de $II^{\circ}$ Medio en un colegio de escasos resursos.}
+    \twentyitem{2015- 2019}{Fundaci\'on Arde}{Voluntario}{Durante los a\~nos  de formaci\'on universitaria he participado en la fundaci\'on Arde realizando clases de matem\'aticas y f\'isica a ni\~nos de $II^{\circ}$ Medio en un colegio de escasos resursos.}
     \twentyitem{2018}{Fundaci\'on Arde}{Voluntario}{Durante el a\~no 2018 particip\'e en el \'area de inserci\'on social de la fundaci\'on. En ese per\'iodo viv\'i en la poblaci\'on `El refugio'.}
     
     \twentyitem{2015-2016}{Misiones Familiares}{Organizador}{Durante los an\~os mencionados me desempe\~n\'e como organizador de Misiones Familiares.}
