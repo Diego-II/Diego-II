@@ -80,7 +80,9 @@
 \newcommand{\cvnumberphone}[1]{\renewcommand{\cvnumberphone}{#1}}
 \newcommand{\cvaddress}[1]{\renewcommand{\cvaddress}{#1}}
 \newcommand{\cvsite}[1]{\renewcommand{\cvsite}{#1}}
+\newcommand{\cvsiteotro}[1]{\renewcommand{\cvsiteotro}{#1}}
 \newcommand{\aboutme}[1]{\renewcommand{\aboutme}{#1}}
+\newcommand{\cargo}[1]{\renewcommand{\cargo}{#1}}
 \newcommand{\profilepic}[1]{\renewcommand{\profilepic}{#1}}
 \newcommand{\cvname}[1]{\renewcommand{\cvname}{#1}}
 \newcommand{\cvjobtitle}[1]{\renewcommand{\cvjobtitle}{#1}}
@@ -150,11 +152,20 @@
 			\ifthenelse{\equal{\cvaddress}{}}{}{\textsc{\Large\icon{\faHome}} & \cvaddress\\}
 			\ifthenelse{\equal{\cvnumberphone}{}}{}{\textsc{\Large\icon{\Telefon}} & \cvnumberphone\\}
 			\ifthenelse{\equal{\cvsite}{}}{}{\textsc{\Large\icon{\Mundus}} & \cvsite\\}
+			\ifthenelse{\equal{\cvsiteotro}{}}{}{\textsc{\Large\icon{\Mundus}} & \cvsiteotro\\}
 			\ifthenelse{\equal{\cvmail}{}}{}{\textsc{\large\icon{@}} & \href{mailto:\cvmail}{\cvmail}}
 		\end{tabular}
 
-		%------------------------------------------------
+        %-------uultima actualizacion
+        \noindent\rule{6cm}{1pt} \\
+            \textbf{\'Ultima actualizaci\'on:} \\ \today \\
+		%-------------------Cargo al que se postula-----------
+		\noindent\rule{6cm}{1pt}
+		{\textbf{\texttt{Cargo al que se postula:}}} \\
+		\cargo \\ 
+		\noindent\rule{6cm}{1pt}
 		
+		%----------------------------
 		\ifthenelse{\equal{\aboutme}{}}{}{
 			\profilesection{Resumen}
 			\begin{flushleft}
