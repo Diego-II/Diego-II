@@ -155,15 +155,13 @@
 			\ifthenelse{\equal{\cvsiteotro}{}}{}{\textsc{\Large\icon{\Mundus}} & \cvsiteotro\\}
 			\ifthenelse{\equal{\cvmail}{}}{}{\textsc{\large\icon{@}} & \href{mailto:\cvmail}{\cvmail}}
 		\end{tabular}
-
-        %-------uultima actualizacion
-        \noindent\rule{6cm}{1pt} \\
-            \textbf{\'Ultima actualizaci\'on:} \\ \today \\
 		%-------------------Cargo al que se postula-----------
-		\noindent\rule{6cm}{1pt}
-		{\textbf{\texttt{Cargo al que se postula:}}} \\
-		\cargo \\ 
-		\noindent\rule{6cm}{1pt}
+		\ifthenelse{\equal{\cargo}{}}{}{
+		    \noindent\rule{6cm}{1pt}
+    		{\textbf{\texttt{Cargo al que se postula:}}} \\
+    		    \cargo \\ 
+    		\noindent\rule{6cm}{1pt}
+		}
 		
 		%----------------------------
 		\ifthenelse{\equal{\aboutme}{}}{}{
@@ -180,7 +178,10 @@
 		%\skills
 		\skillstext
 		%\scriptsize
-			
+        %-------uultima actualizacion
+        \noindent\rule{6cm}{1pt} \\
+            \textbf{\'Ultima actualizaci\'on:} \\ \today \\
+		
 		%------------------------------------------------
 			
 	\end{textblock}
